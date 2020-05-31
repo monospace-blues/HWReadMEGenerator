@@ -137,7 +137,7 @@ promptUser().then(function (answers) {
         const readMe = generateREADME(answers, image_url, github_url);
 
         // write the file
-        return writeFileAsync("README.md", readMe);
+        return writeFileAsync("./READMEFolder/README.md", readMe);
 
     });
 })
